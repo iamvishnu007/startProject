@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+
+
+	<body ng-app="myApp" ng-controller="myCtrl">
+       <div>
+	   
+	   <p> Name: <input type="text" ng-model="First" placeholder="Enter First Name" ></p>
+	   <p>Surname: <input type="text" ng-model="Last" placeholder="Enter Last Name"></p>
+	   <p>Designation: <input type="text" ng-model="Design" placeholder="Enter Designation"></p>
+	   <p>City: <input type="text" ng-model="City" placeholder="Enter City"></p>
+	   </div>
+	   
+	   <div>
+	        <span><i><b>Information</b></i></span><br><br>
+			
+	   <span>First Name :  <b><span>{{First}}</span></b> <br>
+	   <span>Last Name :  <b><span>{{Last}}</span></b><br>
+	   <span>Designation :  <b><span>{{Design}}</span></b><br>
+	   <span>City :  <b><span>{{City}}</span></b><br>
+	   
+	   </div>
+
+	</body>
+
+</html>
+
+
